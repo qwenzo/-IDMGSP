@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "arxiv parse-metadata",
+            "type": "python",
+            "request": "launch",
+            "module": "papercollector",
+            "args": ["arxiv", "parse-metadata"],
+            "justMyCode": true
+        },
+        {
+            "name": "arxiv download-pdfs",
+            "type": "python",
+            "request": "launch",
+            "module": "papercollector",
+            "args": ["arxiv", "download-pdfs", "--n", "10"],
+            "justMyCode": true
+        },
+        {
+            "name": "arxiv parse-pdfs",
+            "type": "python",
+            "request": "launch",
+            "module": "papercollector",
+            "args": ["arxiv", "parse-pdfs"],
+            "justMyCode": true
+        },
+        {
+            "name": "arxiv export-csv",
+            "type": "python",
+            "request": "launch",
+            "module": "papercollector",
+            "args": ["arxiv", "export-csv"],
+            "justMyCode": true
+        },
+        {
+            "name": "scigen generate-pdfs",
+            "type": "python",
+            "request": "launch",
+            "module": "papercollector",
+            "args": ["arxiv", "generate-pdfs"],
+            "justMyCode": true
+        },
+        {
+            "name": "scigen parse-pdfs",
+            "type": "python",
+            "request": "launch",
+            "module": "papercollector",
+            "args": ["scigen", "parse-pdfs"],
+            "justMyCode": true
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data"
+version = "0.1.0"
+description = ""
+authors = ["Paolo Basso <bassopaolo99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+pymupdf = "^1.21.0"
+pandas = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

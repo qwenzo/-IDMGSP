@@ -1,0 +1,10 @@
+papers_db/*
+papers_pdf/arxiv/*
+papers_pdf/scigen/*
+__pycache__
+.venv
+*.db*
+*.zip
+arxiv-metadata-oai-snapshot.json
+!.gitkeep
+.DS_Store
