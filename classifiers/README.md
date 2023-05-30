@@ -4,10 +4,10 @@
     - `stats and cleaning.ipynb` notebook for filtering the data and showing statistics.
     - `archive` older data. Not used for classification.
     - `data_nlp2022` OOD datasets
-        - `gpt3curienlp2022.csv` OOD-GPT3.
-        - `gpt3curienlp2022_restricted.csv` filtered OOD-GPT3.
-        - `gpt3curienlp2022_restricted_test.csv` 1k papers taken from `gpt3curienlp2022_restricted.csv`. Used for testing the classifiers.
-        - `gpt3curienlp2022_restricted_train.csv` 1.2k papers taken from `gpt3curienlp2022_restricted.csv`. Used for training the classifiers (OOD-GPT3).
+        - `gpt3curienlp2022.csv` gpt-3 generated papers.
+        - `gpt3curienlp2022_restricted.csv` filtered gpt-3 generated papers.
+        - `gpt3curienlp2022_restricted_test.csv` 1k papers taken from `gpt3curienlp2022_restricted.csv`. Used for testing the classifiers (OOD-GPT3).
+        - `gpt3curienlp2022_restricted_train.csv` 1.2k papers taken from `gpt3curienlp2022_restricted.csv`. Used for training the classifiers. This dataset along with classifier_input_restricted_train.csv construct (TRAIN+GPT3).
         - `realnlp2022.csv` real data generated independent of classifier_input_restricted.csv.
         - `realnlp2022_restricted.csv` filtered realnlp2022.csv.
         - `realnlp2022_restricted_4000.csv` randomly selected 4k real data from realnlp2022_restricted.csv (OOD-REAL).
